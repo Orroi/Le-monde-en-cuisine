@@ -73,12 +73,14 @@
     <div style="padding: 1em" ></div>
     <hr class="ligne">
     <p class="back-text"> Actualités</p>
+    <ManageBackView/>
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ManageView from '../components/ManageView'
+import ManageBackView from '../components/ManageBackView.vue'
 
 export default {
   name: 'Home',
@@ -87,7 +89,8 @@ export default {
     }
   },
   components: {
-    ManageView
+    ManageView,
+    ManageBackView
   }
 }
 </script>

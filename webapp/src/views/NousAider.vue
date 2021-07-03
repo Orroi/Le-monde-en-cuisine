@@ -75,12 +75,14 @@
       <hr class="ligneDeFin">
     <div style="padding: 1em" ></div>
     </div>
+    <ManageBackView/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ManageView from '../components/ManageView'
+import ManageBackView from '../components/ManageBackView.vue'
 
 export default {
   name: 'NousAider',
@@ -90,6 +92,7 @@ export default {
   },
   components: {
     ManageView,
+    ManageBackView
   }
 }
 </script>

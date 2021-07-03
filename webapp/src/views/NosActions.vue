@@ -100,12 +100,14 @@
       <b>Informations complétementaires à venir ...</b>
     </div>
     <div style="padding: 3em" ></div>
+    <ManageBackView/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ManageView from '../components/ManageView'
+import ManageBackView from '../components/ManageBackView.vue'
 
 export default {
   name: 'NosActions',
@@ -115,6 +117,7 @@ export default {
   },
   components: {
     ManageView,
+    ManageBackView
   }
 }
 </script>

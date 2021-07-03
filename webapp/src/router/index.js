@@ -6,6 +6,8 @@ import QuiSommeNous from '../views/QuiSommeNous.vue'
 import NosActions from '../views/NosActions.vue'
 import NousAider from '../views/NousAider.vue'
 import NosRecettes from '../views/NosRecettes.vue'
+import MentionsLegale from '../views/MentionsLegale.vue'
+import RGPD from '../views/RGPD.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +47,16 @@ const routes = [
     path: "/NosRecettes",
     name: "NosRecettes",
     component: NosRecettes
+  },
+  {
+    path: "/MentionsLegale",
+    name: "MentionsLegale",
+    component: MentionsLegale
+  },
+  {
+    path: "/RGPD",
+    name: "RGPD",
+    component: RGPD
   },
   ]
 

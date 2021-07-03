@@ -37,7 +37,7 @@
     <div style="padding: 5em" ></div>
     <div id="content">
         <v-img
-          height="400"
+          height="500"
           width="100%"
           src="../assets/plaquette LMEC-min.png"
         ></v-img>
@@ -49,12 +49,14 @@
       </button>
     </a>
     <div style="padding: 1em" ></div>
+    <ManageBackView/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ManageView from '../components/ManageView'
+import ManageBackView from '../components/ManageBackView.vue'
 
 export default {
   name: 'PresentationProjet',
@@ -64,6 +66,7 @@ export default {
   },
   components: {
     ManageView,
+    ManageBackView
   }
 }
 </script>

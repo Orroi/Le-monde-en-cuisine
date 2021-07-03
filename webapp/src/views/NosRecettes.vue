@@ -12,12 +12,14 @@
         <h1 class="textColor">Nos Recettes</h1>
     </div>
     <h1 class="TextTemp">Ici, vous trouverez régulièrement des recettes qui ne feront pas partie de notre livre, mais qui sauront tout de même régaler vos papilles !</h1>
+  <ManageBackView/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ManageView from '../components/ManageView'
+import ManageBackView from '../components/ManageBackView.vue'
 
 export default {
   name: 'NosRecttes',
@@ -26,7 +28,8 @@ export default {
     }
   },
   components: {
-    ManageView
+    ManageView,
+    ManageBackView
   }
 }
 </script>

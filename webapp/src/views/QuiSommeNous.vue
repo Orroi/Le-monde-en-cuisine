@@ -190,12 +190,14 @@
       </a>
       </div>
     </div>
+    <ManageBackView/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ManageView from '../components/ManageView'
+import ManageBackView from '../components/ManageBackView.vue'
 
 export default {
   name: 'QuiSommeNous',
@@ -205,6 +207,7 @@ export default {
   },
   components: {
     ManageView,
+    ManageBackView
   }
 }
 </script>
